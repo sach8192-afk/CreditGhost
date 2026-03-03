@@ -1,0 +1,1074 @@
+{
+  "ramesh": {
+    "final_score": 637,
+    "bucket": "Good",
+    "narrative": "Good financial habits with some areas to improve. Suitable for microfinance loans with standard terms.",
+    "all_signals": [
+      {
+        "signal": "savings_discipline",
+        "name": "Savings Discipline",
+        "icon": "🏦",
+        "what_it_means": "Whether money is saved after expenses each month",
+        "why_it_matters": "Self-control with savings = self-control with EMIs",
+        "score": 0,
+        "max": 150,
+        "pct": 0,
+        "level": "Poor",
+        "direction": "hurting",
+        "impact_pts": -75,
+        "headline": "Weak savings discipline — needs attention",
+        "evidence": [
+          "Spending ₹13,982 MORE than earning monthly",
+          "Balance went negative (₹-25,658) — overdraft detected"
+        ],
+        "improvements": [
+          "Reduce monthly spending below income level — critical for score",
+          "Avoid overdraft completely — negative balance loses 20+ pts"
+        ]
+      },
+      {
+        "signal": "income_stability",
+        "name": "Income Stability",
+        "icon": "💰",
+        "what_it_means": "How consistently and sufficiently money comes in",
+        "why_it_matters": "Regular income = ability to repay loan on time",
+        "score": 84,
+        "max": 200,
+        "pct": 42,
+        "level": "Fair",
+        "direction": "hurting",
+        "impact_pts": -16,
+        "headline": "Average income stability — room to grow",
+        "evidence": [
+          "Income arrived in all 3 months ✓",
+          "Average monthly income: ₹3,279",
+          "High income variation (65%) — irregular earnings",
+          "Income declined over the 3-month period"
+        ],
+        "improvements": [
+          "Consistent monthly income, even if smaller, improves score significantly",
+          "Stabilise income before reapplying"
+        ]
+      },
+      {
+        "signal": "debt_signals",
+        "name": "Debt Burden",
+        "icon": "⚖️",
+        "what_it_means": "Existing loans and their burden on monthly income",
+        "why_it_matters": "Too much existing debt = can't handle new loan",
+        "score": 85,
+        "max": 140,
+        "pct": 61,
+        "level": "Fair",
+        "direction": "hurting",
+        "impact_pts": 15,
+        "headline": "Average debt burden — room to grow",
+        "evidence": [
+          "Active EMI payments: IIFL Finance",
+          "Average monthly EMI: ₹607 (19% of income)",
+          "EMI burden is manageable (under 25%) ✓",
+          "Account balance went negative (₹-25,658) — overdraft"
+        ],
+        "improvements": [
+          "Avoid overdraft — negative balance is biggest trust killer"
+        ]
+      },
+      {
+        "signal": "payment_consistency",
+        "name": "Payment Consistency",
+        "icon": "📱",
+        "what_it_means": "Whether bills and recharges are paid every month",
+        "why_it_matters": "Paying ₹199 Jio every month predicts loan repayment",
+        "score": 137,
+        "max": 180,
+        "pct": 76,
+        "level": "Good",
+        "direction": "helping",
+        "impact_pts": 47,
+        "headline": "Good payment consistency — above average",
+        "evidence": [
+          "Phone recharged 2/3 months (1 month missed)",
+          "Recharge amount changes significantly each month",
+          "Utility bills paid in all 3 months ✓"
+        ],
+        "improvements": [
+          "Recharge every month without fail — adds ~25 pts instantly",
+          "Pick one fixed recharge plan — consistency signals stable income"
+        ]
+      },
+      {
+        "signal": "transaction_frequency",
+        "name": "Transaction Activity",
+        "icon": "📊",
+        "what_it_means": "How actively UPI is used across different merchants",
+        "why_it_matters": "Active digital footprint = more data = better assessment",
+        "score": 84,
+        "max": 100,
+        "pct": 84,
+        "level": "Good",
+        "direction": "helping",
+        "impact_pts": 34,
+        "headline": "Good transaction activity — above average",
+        "evidence": [
+          "24.0 UPI transactions per month — good activity",
+          "Spending across 9 categories — diverse financial life ✓",
+          "51 unique merchants over 3 months",
+          "6% transactions failed (4 payments bounced)"
+        ],
+        "improvements": [
+          "Reduce failed payments — 4 bounced payments loses 10 pts"
+        ]
+      },
+      {
+        "signal": "spending_behavior",
+        "name": "Spending Behavior",
+        "icon": "🛒",
+        "what_it_means": "Whether spending is consistent or erratic",
+        "why_it_matters": "Predictable spending = predictable person = safer loan",
+        "score": 118,
+        "max": 130,
+        "pct": 91,
+        "level": "Excellent",
+        "direction": "helping",
+        "impact_pts": 53,
+        "headline": "Strong spending behavior — top tier",
+        "evidence": [
+          "Very consistent spending each month (varies 14%) ✓",
+          "No unusual spending spikes detected ✓",
+          "8% of transactions happen between 11PM-5AM"
+        ],
+        "improvements": []
+      }
+    ],
+    "helping": [
+      {
+        "signal": "payment_consistency",
+        "name": "Payment Consistency",
+        "icon": "📱",
+        "what_it_means": "Whether bills and recharges are paid every month",
+        "why_it_matters": "Paying ₹199 Jio every month predicts loan repayment",
+        "score": 137,
+        "max": 180,
+        "pct": 76,
+        "level": "Good",
+        "direction": "helping",
+        "impact_pts": 47,
+        "headline": "Good payment consistency — above average",
+        "evidence": [
+          "Phone recharged 2/3 months (1 month missed)",
+          "Recharge amount changes significantly each month",
+          "Utility bills paid in all 3 months ✓"
+        ],
+        "improvements": [
+          "Recharge every month without fail — adds ~25 pts instantly",
+          "Pick one fixed recharge plan — consistency signals stable income"
+        ]
+      },
+      {
+        "signal": "transaction_frequency",
+        "name": "Transaction Activity",
+        "icon": "📊",
+        "what_it_means": "How actively UPI is used across different merchants",
+        "why_it_matters": "Active digital footprint = more data = better assessment",
+        "score": 84,
+        "max": 100,
+        "pct": 84,
+        "level": "Good",
+        "direction": "helping",
+        "impact_pts": 34,
+        "headline": "Good transaction activity — above average",
+        "evidence": [
+          "24.0 UPI transactions per month — good activity",
+          "Spending across 9 categories — diverse financial life ✓",
+          "51 unique merchants over 3 months",
+          "6% transactions failed (4 payments bounced)"
+        ],
+        "improvements": [
+          "Reduce failed payments — 4 bounced payments loses 10 pts"
+        ]
+      },
+      {
+        "signal": "spending_behavior",
+        "name": "Spending Behavior",
+        "icon": "🛒",
+        "what_it_means": "Whether spending is consistent or erratic",
+        "why_it_matters": "Predictable spending = predictable person = safer loan",
+        "score": 118,
+        "max": 130,
+        "pct": 91,
+        "level": "Excellent",
+        "direction": "helping",
+        "impact_pts": 53,
+        "headline": "Strong spending behavior — top tier",
+        "evidence": [
+          "Very consistent spending each month (varies 14%) ✓",
+          "No unusual spending spikes detected ✓",
+          "8% of transactions happen between 11PM-5AM"
+        ],
+        "improvements": []
+      }
+    ],
+    "hurting": [
+      {
+        "signal": "savings_discipline",
+        "name": "Savings Discipline",
+        "icon": "🏦",
+        "what_it_means": "Whether money is saved after expenses each month",
+        "why_it_matters": "Self-control with savings = self-control with EMIs",
+        "score": 0,
+        "max": 150,
+        "pct": 0,
+        "level": "Poor",
+        "direction": "hurting",
+        "impact_pts": -75,
+        "headline": "Weak savings discipline — needs attention",
+        "evidence": [
+          "Spending ₹13,982 MORE than earning monthly",
+          "Balance went negative (₹-25,658) — overdraft detected"
+        ],
+        "improvements": [
+          "Reduce monthly spending below income level — critical for score",
+          "Avoid overdraft completely — negative balance loses 20+ pts"
+        ]
+      },
+      {
+        "signal": "income_stability",
+        "name": "Income Stability",
+        "icon": "💰",
+        "what_it_means": "How consistently and sufficiently money comes in",
+        "why_it_matters": "Regular income = ability to repay loan on time",
+        "score": 84,
+        "max": 200,
+        "pct": 42,
+        "level": "Fair",
+        "direction": "hurting",
+        "impact_pts": -16,
+        "headline": "Average income stability — room to grow",
+        "evidence": [
+          "Income arrived in all 3 months ✓",
+          "Average monthly income: ₹3,279",
+          "High income variation (65%) — irregular earnings",
+          "Income declined over the 3-month period"
+        ],
+        "improvements": [
+          "Consistent monthly income, even if smaller, improves score significantly",
+          "Stabilise income before reapplying"
+        ]
+      },
+      {
+        "signal": "debt_signals",
+        "name": "Debt Burden",
+        "icon": "⚖️",
+        "what_it_means": "Existing loans and their burden on monthly income",
+        "why_it_matters": "Too much existing debt = can't handle new loan",
+        "score": 85,
+        "max": 140,
+        "pct": 61,
+        "level": "Fair",
+        "direction": "hurting",
+        "impact_pts": 15,
+        "headline": "Average debt burden — room to grow",
+        "evidence": [
+          "Active EMI payments: IIFL Finance",
+          "Average monthly EMI: ₹607 (19% of income)",
+          "EMI burden is manageable (under 25%) ✓",
+          "Account balance went negative (₹-25,658) — overdraft"
+        ],
+        "improvements": [
+          "Avoid overdraft — negative balance is biggest trust killer"
+        ]
+      }
+    ],
+    "top_improvements": [
+      {
+        "signal": "Savings Discipline",
+        "icon": "🏦",
+        "tip": "Reduce monthly spending below income level — critical for score"
+      },
+      {
+        "signal": "Savings Discipline",
+        "icon": "🏦",
+        "tip": "Avoid overdraft completely — negative balance loses 20+ pts"
+      },
+      {
+        "signal": "Income Stability",
+        "icon": "💰",
+        "tip": "Consistent monthly income, even if smaller, improves score significantly"
+      },
+      {
+        "signal": "Income Stability",
+        "icon": "💰",
+        "tip": "Stabilise income before reapplying"
+      }
+    ],
+    "signal_chart": [
+      {
+        "name": "Savings Discipline",
+        "icon": "🏦",
+        "score": 0,
+        "max": 150,
+        "pct": 0,
+        "color": "#dc2626"
+      },
+      {
+        "name": "Income Stability",
+        "icon": "💰",
+        "score": 84,
+        "max": 200,
+        "pct": 42,
+        "color": "#dc2626"
+      },
+      {
+        "name": "Debt Burden",
+        "icon": "⚖️",
+        "score": 85,
+        "max": 140,
+        "pct": 61,
+        "color": "#dc2626"
+      },
+      {
+        "name": "Payment Consistency",
+        "icon": "📱",
+        "score": 137,
+        "max": 180,
+        "pct": 76,
+        "color": "#16a34a"
+      },
+      {
+        "name": "Transaction Activity",
+        "icon": "📊",
+        "score": 84,
+        "max": 100,
+        "pct": 84,
+        "color": "#16a34a"
+      },
+      {
+        "name": "Spending Behavior",
+        "icon": "🛒",
+        "score": 118,
+        "max": 130,
+        "pct": 91,
+        "color": "#16a34a"
+      }
+    ],
+    "transactions_analysed": 72
+  },
+  "priya": {
+    "final_score": 659,
+    "bucket": "Good",
+    "narrative": "Good financial habits with some areas to improve. Suitable for microfinance loans with standard terms.",
+    "all_signals": [
+      {
+        "signal": "savings_discipline",
+        "name": "Savings Discipline",
+        "icon": "🏦",
+        "what_it_means": "Whether money is saved after expenses each month",
+        "why_it_matters": "Self-control with savings = self-control with EMIs",
+        "score": 34,
+        "max": 150,
+        "pct": 23,
+        "level": "Poor",
+        "direction": "hurting",
+        "impact_pts": -41,
+        "headline": "Weak savings discipline — needs attention",
+        "evidence": [
+          "Spending ₹30,187 MORE than earning monthly",
+          "Saved money in 1 of 3 months",
+          "Balance went negative (₹-43,236) — overdraft detected"
+        ],
+        "improvements": [
+          "Reduce monthly spending below income level — critical for score",
+          "Avoid overdraft completely — negative balance loses 20+ pts"
+        ]
+      },
+      {
+        "signal": "income_stability",
+        "name": "Income Stability",
+        "icon": "💰",
+        "what_it_means": "How consistently and sufficiently money comes in",
+        "why_it_matters": "Regular income = ability to repay loan on time",
+        "score": 84,
+        "max": 200,
+        "pct": 42,
+        "level": "Fair",
+        "direction": "hurting",
+        "impact_pts": -16,
+        "headline": "Average income stability — room to grow",
+        "evidence": [
+          "Income missing in 1 of 3 months",
+          "Average monthly income: ₹19,696",
+          "High income variation (100%) — irregular earnings",
+          "Income declined over the 3-month period"
+        ],
+        "improvements": [
+          "Ensure income credit every month — currently missing 1 month(s)",
+          "Consistent monthly income, even if smaller, improves score significantly"
+        ]
+      },
+      {
+        "signal": "debt_signals",
+        "name": "Debt Burden",
+        "icon": "⚖️",
+        "what_it_means": "Existing loans and their burden on monthly income",
+        "why_it_matters": "Too much existing debt = can't handle new loan",
+        "score": 85,
+        "max": 140,
+        "pct": 61,
+        "level": "Fair",
+        "direction": "hurting",
+        "impact_pts": 15,
+        "headline": "Average debt burden — room to grow",
+        "evidence": [
+          "Active EMI payments: ICICI Bank EMI, YouTube Premium",
+          "Average monthly EMI: ₹2,266 (12% of income)",
+          "EMI burden is manageable (under 25%) ✓",
+          "Account balance went negative (₹-43,236) — overdraft"
+        ],
+        "improvements": [
+          "Avoid overdraft — negative balance is biggest trust killer"
+        ]
+      },
+      {
+        "signal": "payment_consistency",
+        "name": "Payment Consistency",
+        "icon": "📱",
+        "what_it_means": "Whether bills and recharges are paid every month",
+        "why_it_matters": "Paying ₹199 Jio every month predicts loan repayment",
+        "score": 130,
+        "max": 180,
+        "pct": 72,
+        "level": "Good",
+        "direction": "helping",
+        "impact_pts": 40,
+        "headline": "Good payment consistency — above average",
+        "evidence": [
+          "Phone recharged 3/3 months ✓",
+          "Typical recharge amount: ₹1296",
+          "Recharge amount changes significantly each month",
+          "Utility bills paid in all 3 months ✓"
+        ],
+        "improvements": [
+          "Pick one fixed recharge plan — consistency signals stable income"
+        ]
+      },
+      {
+        "signal": "spending_behavior",
+        "name": "Spending Behavior",
+        "icon": "🛒",
+        "what_it_means": "Whether spending is consistent or erratic",
+        "why_it_matters": "Predictable spending = predictable person = safer loan",
+        "score": 105,
+        "max": 130,
+        "pct": 81,
+        "level": "Good",
+        "direction": "helping",
+        "impact_pts": 40,
+        "headline": "Good spending behavior — above average",
+        "evidence": [
+          "Spending varies 35% — significant inconsistency",
+          "No unusual spending spikes detected ✓",
+          "10% of transactions happen between 11PM-5AM"
+        ],
+        "improvements": [
+          "Smooth out spending across months — spikes lose 15+ pts"
+        ]
+      },
+      {
+        "signal": "transaction_frequency",
+        "name": "Transaction Activity",
+        "icon": "📊",
+        "what_it_means": "How actively UPI is used across different merchants",
+        "why_it_matters": "Active digital footprint = more data = better assessment",
+        "score": 100,
+        "max": 100,
+        "pct": 100,
+        "level": "Excellent",
+        "direction": "helping",
+        "impact_pts": 50,
+        "headline": "Strong transaction activity — top tier",
+        "evidence": [
+          "Very active: 47.7 UPI transactions/month ✓",
+          "Spending across 13 categories — diverse financial life ✓",
+          "83 unique merchants over 3 months",
+          "1% transactions failed — acceptable"
+        ],
+        "improvements": []
+      }
+    ],
+    "helping": [
+      {
+        "signal": "payment_consistency",
+        "name": "Payment Consistency",
+        "icon": "📱",
+        "what_it_means": "Whether bills and recharges are paid every month",
+        "why_it_matters": "Paying ₹199 Jio every month predicts loan repayment",
+        "score": 130,
+        "max": 180,
+        "pct": 72,
+        "level": "Good",
+        "direction": "helping",
+        "impact_pts": 40,
+        "headline": "Good payment consistency — above average",
+        "evidence": [
+          "Phone recharged 3/3 months ✓",
+          "Typical recharge amount: ₹1296",
+          "Recharge amount changes significantly each month",
+          "Utility bills paid in all 3 months ✓"
+        ],
+        "improvements": [
+          "Pick one fixed recharge plan — consistency signals stable income"
+        ]
+      },
+      {
+        "signal": "spending_behavior",
+        "name": "Spending Behavior",
+        "icon": "🛒",
+        "what_it_means": "Whether spending is consistent or erratic",
+        "why_it_matters": "Predictable spending = predictable person = safer loan",
+        "score": 105,
+        "max": 130,
+        "pct": 81,
+        "level": "Good",
+        "direction": "helping",
+        "impact_pts": 40,
+        "headline": "Good spending behavior — above average",
+        "evidence": [
+          "Spending varies 35% — significant inconsistency",
+          "No unusual spending spikes detected ✓",
+          "10% of transactions happen between 11PM-5AM"
+        ],
+        "improvements": [
+          "Smooth out spending across months — spikes lose 15+ pts"
+        ]
+      },
+      {
+        "signal": "transaction_frequency",
+        "name": "Transaction Activity",
+        "icon": "📊",
+        "what_it_means": "How actively UPI is used across different merchants",
+        "why_it_matters": "Active digital footprint = more data = better assessment",
+        "score": 100,
+        "max": 100,
+        "pct": 100,
+        "level": "Excellent",
+        "direction": "helping",
+        "impact_pts": 50,
+        "headline": "Strong transaction activity — top tier",
+        "evidence": [
+          "Very active: 47.7 UPI transactions/month ✓",
+          "Spending across 13 categories — diverse financial life ✓",
+          "83 unique merchants over 3 months",
+          "1% transactions failed — acceptable"
+        ],
+        "improvements": []
+      }
+    ],
+    "hurting": [
+      {
+        "signal": "savings_discipline",
+        "name": "Savings Discipline",
+        "icon": "🏦",
+        "what_it_means": "Whether money is saved after expenses each month",
+        "why_it_matters": "Self-control with savings = self-control with EMIs",
+        "score": 34,
+        "max": 150,
+        "pct": 23,
+        "level": "Poor",
+        "direction": "hurting",
+        "impact_pts": -41,
+        "headline": "Weak savings discipline — needs attention",
+        "evidence": [
+          "Spending ₹30,187 MORE than earning monthly",
+          "Saved money in 1 of 3 months",
+          "Balance went negative (₹-43,236) — overdraft detected"
+        ],
+        "improvements": [
+          "Reduce monthly spending below income level — critical for score",
+          "Avoid overdraft completely — negative balance loses 20+ pts"
+        ]
+      },
+      {
+        "signal": "income_stability",
+        "name": "Income Stability",
+        "icon": "💰",
+        "what_it_means": "How consistently and sufficiently money comes in",
+        "why_it_matters": "Regular income = ability to repay loan on time",
+        "score": 84,
+        "max": 200,
+        "pct": 42,
+        "level": "Fair",
+        "direction": "hurting",
+        "impact_pts": -16,
+        "headline": "Average income stability — room to grow",
+        "evidence": [
+          "Income missing in 1 of 3 months",
+          "Average monthly income: ₹19,696",
+          "High income variation (100%) — irregular earnings",
+          "Income declined over the 3-month period"
+        ],
+        "improvements": [
+          "Ensure income credit every month — currently missing 1 month(s)",
+          "Consistent monthly income, even if smaller, improves score significantly"
+        ]
+      },
+      {
+        "signal": "debt_signals",
+        "name": "Debt Burden",
+        "icon": "⚖️",
+        "what_it_means": "Existing loans and their burden on monthly income",
+        "why_it_matters": "Too much existing debt = can't handle new loan",
+        "score": 85,
+        "max": 140,
+        "pct": 61,
+        "level": "Fair",
+        "direction": "hurting",
+        "impact_pts": 15,
+        "headline": "Average debt burden — room to grow",
+        "evidence": [
+          "Active EMI payments: ICICI Bank EMI, YouTube Premium",
+          "Average monthly EMI: ₹2,266 (12% of income)",
+          "EMI burden is manageable (under 25%) ✓",
+          "Account balance went negative (₹-43,236) — overdraft"
+        ],
+        "improvements": [
+          "Avoid overdraft — negative balance is biggest trust killer"
+        ]
+      }
+    ],
+    "top_improvements": [
+      {
+        "signal": "Savings Discipline",
+        "icon": "🏦",
+        "tip": "Reduce monthly spending below income level — critical for score"
+      },
+      {
+        "signal": "Savings Discipline",
+        "icon": "🏦",
+        "tip": "Avoid overdraft completely — negative balance loses 20+ pts"
+      },
+      {
+        "signal": "Income Stability",
+        "icon": "💰",
+        "tip": "Ensure income credit every month — currently missing 1 month(s)"
+      },
+      {
+        "signal": "Income Stability",
+        "icon": "💰",
+        "tip": "Consistent monthly income, even if smaller, improves score significantly"
+      }
+    ],
+    "signal_chart": [
+      {
+        "name": "Savings Discipline",
+        "icon": "🏦",
+        "score": 34,
+        "max": 150,
+        "pct": 23,
+        "color": "#dc2626"
+      },
+      {
+        "name": "Income Stability",
+        "icon": "💰",
+        "score": 84,
+        "max": 200,
+        "pct": 42,
+        "color": "#dc2626"
+      },
+      {
+        "name": "Debt Burden",
+        "icon": "⚖️",
+        "score": 85,
+        "max": 140,
+        "pct": 61,
+        "color": "#dc2626"
+      },
+      {
+        "name": "Payment Consistency",
+        "icon": "📱",
+        "score": 130,
+        "max": 180,
+        "pct": 72,
+        "color": "#16a34a"
+      },
+      {
+        "name": "Spending Behavior",
+        "icon": "🛒",
+        "score": 105,
+        "max": 130,
+        "pct": 81,
+        "color": "#16a34a"
+      },
+      {
+        "name": "Transaction Activity",
+        "icon": "📊",
+        "score": 100,
+        "max": 100,
+        "pct": 100,
+        "color": "#16a34a"
+      }
+    ],
+    "transactions_analysed": 143
+  },
+  "arjun": {
+    "final_score": 572,
+    "bucket": "Fair",
+    "narrative": "Mixed financial signals detected. Loan possible with smaller amount or co-applicant.",
+    "all_signals": [
+      {
+        "signal": "savings_discipline",
+        "name": "Savings Discipline",
+        "icon": "🏦",
+        "what_it_means": "Whether money is saved after expenses each month",
+        "why_it_matters": "Self-control with savings = self-control with EMIs",
+        "score": 0,
+        "max": 150,
+        "pct": 0,
+        "level": "Poor",
+        "direction": "hurting",
+        "impact_pts": -75,
+        "headline": "Weak savings discipline — needs attention",
+        "evidence": [
+          "Spending ₹30,893 MORE than earning monthly",
+          "Balance went negative (₹-59,712) — overdraft detected"
+        ],
+        "improvements": [
+          "Reduce monthly spending below income level — critical for score",
+          "Avoid overdraft completely — negative balance loses 20+ pts"
+        ]
+      },
+      {
+        "signal": "income_stability",
+        "name": "Income Stability",
+        "icon": "💰",
+        "what_it_means": "How consistently and sufficiently money comes in",
+        "why_it_matters": "Regular income = ability to repay loan on time",
+        "score": 51,
+        "max": 200,
+        "pct": 26,
+        "level": "Poor",
+        "direction": "hurting",
+        "impact_pts": -49,
+        "headline": "Weak income stability — needs attention",
+        "evidence": [
+          "Income missing in 2 of 3 months",
+          "Average monthly income: ₹2,020",
+          "High income variation (173%) — irregular earnings",
+          "Income is growing month over month ✓"
+        ],
+        "improvements": [
+          "Ensure income credit every month — currently missing 2 month(s)",
+          "Consistent monthly income, even if smaller, improves score significantly"
+        ]
+      },
+      {
+        "signal": "payment_consistency",
+        "name": "Payment Consistency",
+        "icon": "📱",
+        "what_it_means": "Whether bills and recharges are paid every month",
+        "why_it_matters": "Paying ₹199 Jio every month predicts loan repayment",
+        "score": 103,
+        "max": 180,
+        "pct": 57,
+        "level": "Fair",
+        "direction": "hurting",
+        "impact_pts": 13,
+        "headline": "Average payment consistency — room to grow",
+        "evidence": [
+          "Phone recharged 3/3 months ✓",
+          "Typical recharge amount: ₹973",
+          "Recharge amount changes significantly each month",
+          "Utility bills paid in 2/3 months"
+        ],
+        "improvements": [
+          "Pick one fixed recharge plan — consistency signals stable income",
+          "Pay electricity/water bill every month — adds 15-20 pts"
+        ]
+      },
+      {
+        "signal": "debt_signals",
+        "name": "Debt Burden",
+        "icon": "⚖️",
+        "what_it_means": "Existing loans and their burden on monthly income",
+        "why_it_matters": "Too much existing debt = can't handle new loan",
+        "score": 85,
+        "max": 140,
+        "pct": 61,
+        "level": "Fair",
+        "direction": "hurting",
+        "impact_pts": 15,
+        "headline": "Average debt burden — room to grow",
+        "evidence": [
+          "Active EMI payments: YouTube Premium",
+          "Average monthly EMI: ₹182 (9% of income)",
+          "EMI burden is manageable (under 25%) ✓",
+          "Account balance went negative (₹-59,712) — overdraft"
+        ],
+        "improvements": [
+          "Avoid overdraft — negative balance is biggest trust killer"
+        ]
+      },
+      {
+        "signal": "spending_behavior",
+        "name": "Spending Behavior",
+        "icon": "🛒",
+        "what_it_means": "Whether spending is consistent or erratic",
+        "why_it_matters": "Predictable spending = predictable person = safer loan",
+        "score": 87,
+        "max": 130,
+        "pct": 67,
+        "level": "Good",
+        "direction": "helping",
+        "impact_pts": 22,
+        "headline": "Good spending behavior — above average",
+        "evidence": [
+          "Spending varies 40% — significant inconsistency",
+          "No unusual spending spikes detected ✓",
+          "16% transactions at night — high late-night activity"
+        ],
+        "improvements": [
+          "Smooth out spending across months — spikes lose 15+ pts",
+          "High night transactions signal risky behavior — loses 10+ pts"
+        ]
+      },
+      {
+        "signal": "transaction_frequency",
+        "name": "Transaction Activity",
+        "icon": "📊",
+        "what_it_means": "How actively UPI is used across different merchants",
+        "why_it_matters": "Active digital footprint = more data = better assessment",
+        "score": 83,
+        "max": 100,
+        "pct": 83,
+        "level": "Good",
+        "direction": "helping",
+        "impact_pts": 33,
+        "headline": "Good transaction activity — above average",
+        "evidence": [
+          "Very active: 32.3 UPI transactions/month ✓",
+          "Spending across 8 categories — diverse financial life ✓",
+          "52 unique merchants over 3 months",
+          "11% transactions failed (11 payments bounced)"
+        ],
+        "improvements": [
+          "Reduce failed payments — 11 bounced payments loses 10 pts"
+        ]
+      }
+    ],
+    "helping": [
+      {
+        "signal": "spending_behavior",
+        "name": "Spending Behavior",
+        "icon": "🛒",
+        "what_it_means": "Whether spending is consistent or erratic",
+        "why_it_matters": "Predictable spending = predictable person = safer loan",
+        "score": 87,
+        "max": 130,
+        "pct": 67,
+        "level": "Good",
+        "direction": "helping",
+        "impact_pts": 22,
+        "headline": "Good spending behavior — above average",
+        "evidence": [
+          "Spending varies 40% — significant inconsistency",
+          "No unusual spending spikes detected ✓",
+          "16% transactions at night — high late-night activity"
+        ],
+        "improvements": [
+          "Smooth out spending across months — spikes lose 15+ pts",
+          "High night transactions signal risky behavior — loses 10+ pts"
+        ]
+      },
+      {
+        "signal": "transaction_frequency",
+        "name": "Transaction Activity",
+        "icon": "📊",
+        "what_it_means": "How actively UPI is used across different merchants",
+        "why_it_matters": "Active digital footprint = more data = better assessment",
+        "score": 83,
+        "max": 100,
+        "pct": 83,
+        "level": "Good",
+        "direction": "helping",
+        "impact_pts": 33,
+        "headline": "Good transaction activity — above average",
+        "evidence": [
+          "Very active: 32.3 UPI transactions/month ✓",
+          "Spending across 8 categories — diverse financial life ✓",
+          "52 unique merchants over 3 months",
+          "11% transactions failed (11 payments bounced)"
+        ],
+        "improvements": [
+          "Reduce failed payments — 11 bounced payments loses 10 pts"
+        ]
+      }
+    ],
+    "hurting": [
+      {
+        "signal": "savings_discipline",
+        "name": "Savings Discipline",
+        "icon": "🏦",
+        "what_it_means": "Whether money is saved after expenses each month",
+        "why_it_matters": "Self-control with savings = self-control with EMIs",
+        "score": 0,
+        "max": 150,
+        "pct": 0,
+        "level": "Poor",
+        "direction": "hurting",
+        "impact_pts": -75,
+        "headline": "Weak savings discipline — needs attention",
+        "evidence": [
+          "Spending ₹30,893 MORE than earning monthly",
+          "Balance went negative (₹-59,712) — overdraft detected"
+        ],
+        "improvements": [
+          "Reduce monthly spending below income level — critical for score",
+          "Avoid overdraft completely — negative balance loses 20+ pts"
+        ]
+      },
+      {
+        "signal": "income_stability",
+        "name": "Income Stability",
+        "icon": "💰",
+        "what_it_means": "How consistently and sufficiently money comes in",
+        "why_it_matters": "Regular income = ability to repay loan on time",
+        "score": 51,
+        "max": 200,
+        "pct": 26,
+        "level": "Poor",
+        "direction": "hurting",
+        "impact_pts": -49,
+        "headline": "Weak income stability — needs attention",
+        "evidence": [
+          "Income missing in 2 of 3 months",
+          "Average monthly income: ₹2,020",
+          "High income variation (173%) — irregular earnings",
+          "Income is growing month over month ✓"
+        ],
+        "improvements": [
+          "Ensure income credit every month — currently missing 2 month(s)",
+          "Consistent monthly income, even if smaller, improves score significantly"
+        ]
+      },
+      {
+        "signal": "payment_consistency",
+        "name": "Payment Consistency",
+        "icon": "📱",
+        "what_it_means": "Whether bills and recharges are paid every month",
+        "why_it_matters": "Paying ₹199 Jio every month predicts loan repayment",
+        "score": 103,
+        "max": 180,
+        "pct": 57,
+        "level": "Fair",
+        "direction": "hurting",
+        "impact_pts": 13,
+        "headline": "Average payment consistency — room to grow",
+        "evidence": [
+          "Phone recharged 3/3 months ✓",
+          "Typical recharge amount: ₹973",
+          "Recharge amount changes significantly each month",
+          "Utility bills paid in 2/3 months"
+        ],
+        "improvements": [
+          "Pick one fixed recharge plan — consistency signals stable income",
+          "Pay electricity/water bill every month — adds 15-20 pts"
+        ]
+      },
+      {
+        "signal": "debt_signals",
+        "name": "Debt Burden",
+        "icon": "⚖️",
+        "what_it_means": "Existing loans and their burden on monthly income",
+        "why_it_matters": "Too much existing debt = can't handle new loan",
+        "score": 85,
+        "max": 140,
+        "pct": 61,
+        "level": "Fair",
+        "direction": "hurting",
+        "impact_pts": 15,
+        "headline": "Average debt burden — room to grow",
+        "evidence": [
+          "Active EMI payments: YouTube Premium",
+          "Average monthly EMI: ₹182 (9% of income)",
+          "EMI burden is manageable (under 25%) ✓",
+          "Account balance went negative (₹-59,712) — overdraft"
+        ],
+        "improvements": [
+          "Avoid overdraft — negative balance is biggest trust killer"
+        ]
+      }
+    ],
+    "top_improvements": [
+      {
+        "signal": "Savings Discipline",
+        "icon": "🏦",
+        "tip": "Reduce monthly spending below income level — critical for score"
+      },
+      {
+        "signal": "Savings Discipline",
+        "icon": "🏦",
+        "tip": "Avoid overdraft completely — negative balance loses 20+ pts"
+      },
+      {
+        "signal": "Income Stability",
+        "icon": "💰",
+        "tip": "Ensure income credit every month — currently missing 2 month(s)"
+      },
+      {
+        "signal": "Income Stability",
+        "icon": "💰",
+        "tip": "Consistent monthly income, even if smaller, improves score significantly"
+      }
+    ],
+    "signal_chart": [
+      {
+        "name": "Savings Discipline",
+        "icon": "🏦",
+        "score": 0,
+        "max": 150,
+        "pct": 0,
+        "color": "#dc2626"
+      },
+      {
+        "name": "Income Stability",
+        "icon": "💰",
+        "score": 51,
+        "max": 200,
+        "pct": 26,
+        "color": "#dc2626"
+      },
+      {
+        "name": "Payment Consistency",
+        "icon": "📱",
+        "score": 103,
+        "max": 180,
+        "pct": 57,
+        "color": "#dc2626"
+      },
+      {
+        "name": "Debt Burden",
+        "icon": "⚖️",
+        "score": 85,
+        "max": 140,
+        "pct": 61,
+        "color": "#dc2626"
+      },
+      {
+        "name": "Spending Behavior",
+        "icon": "🛒",
+        "score": 87,
+        "max": 130,
+        "pct": 67,
+        "color": "#16a34a"
+      },
+      {
+        "name": "Transaction Activity",
+        "icon": "📊",
+        "score": 83,
+        "max": 100,
+        "pct": 83,
+        "color": "#16a34a"
+      }
+    ],
+    "transactions_analysed": 97
+  }
+}
