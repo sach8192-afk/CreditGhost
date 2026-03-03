@@ -31,7 +31,7 @@ export default function Page() {
     setStep(1); // show loading screen
 
     try {
-      const persona = "ramesh"; // rotate to priya / arjun as needed
+      const persona = "priya"; // rotate to priya / arjun as needed
 
       const response = await fetch(`${API_URL}/demo/${persona}`);
 

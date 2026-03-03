@@ -44,6 +44,7 @@ sys.path.append(
 )
 
 from fastapi          import APIRouter, HTTPException
+from pydantic import BaseModel
 from fastapi.responses import JSONResponse
 
 # ── Import ML pipeline ────────────────────────────────────────
@@ -113,6 +114,63 @@ except FileNotFoundError:
     print("   Run: python ml/explain.py")
 except Exception as e:
     print(f"⚠️  Explanations load error: {e}")
+
+
+# ═══════════════════════════════════════════════════════════════
+# NEW ENDPOINT — POST /analyze
+#
+# WHAT IT DOES:
+# Accepts a user name from frontend.
+# Maps it to a demo persona using dictionary lookup.
+# Returns pre-computed demo result.
+#
+# This keeps frontend clean and moves persona logic to backend.
+# ═══════════════════════════════════════════════════════════════
+
+class AnalyzeRequest(BaseModel):
+    name: str
+
+
+# Dictionary mapping for demo personas
+PERSONA_MAP = {
+    "ramesh": "ramesh",
+    "priya":  "priya",
+    "arjun":  "arjun",
+}
+
+
+@router.post("/analyze")
+async def analyze_by_name(payload: AnalyzeRequest):
+    """
+    Example:
+        POST /analyze
+        {
+            "name": "Priya Nair"
+        }
+
+    Returns:
+        Pre-computed demo result for matched persona.
+    """
+
+    entered_name = payload.name.lower().strip()
+
+    # Default fallback persona
+    persona = "ramesh"
+
+    # Dictionary-based mapping
+    for key in PERSONA_MAP:
+        if key in entered_name:
+            persona = PERSONA_MAP[key]
+            break
+
+    # Return pre-computed result (fast, safe)
+    if persona in DEMO_RESULTS:
+        return DEMO_RESULTS[persona]
+
+    raise HTTPException(
+        status_code=404,
+        detail=f"No demo result found for '{persona}'"
+    )
 
 
 # ── Pre-compute full demo results at startup ──────────────────

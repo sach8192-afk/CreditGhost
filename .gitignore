@@ -1,0 +1,32 @@
+# =====================
+# Python / Backend
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# ML Models
+*.pkl
+*.joblib
+
+# =====================
+# Node / Frontend
+# =====================
+node_modules/
+.next/
+out/
+build/
+
+# =====================
+# Logs
+# =====================
+*.log
+
+# =====================
+# OS
+# =====================
+.DS_Store
+Thumbs.db
