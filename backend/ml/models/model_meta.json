@@ -1,0 +1,60 @@
+{
+  "trained_at": "2026-03-02T22:50:59.323912",
+  "accuracy_pct": 82.0,
+  "model_type": "XGBoostClassifier \u2014 3 class",
+  "purpose": "Trust Score 0-100 for each user",
+  "classes": {
+    "0": "Good Standing (trust 75-100)",
+    "1": "Normal       (trust 45-74)",
+    "2": "Suspicious   (trust 0-44)"
+  },
+  "trust_levels": [
+    {
+      "range": "75-100",
+      "label": "Good Standing",
+      "emoji": "\ud83d\udfe2"
+    },
+    {
+      "range": "45-74",
+      "label": "Normal",
+      "emoji": "\ud83d\udfe1"
+    },
+    {
+      "range": "0-44",
+      "label": "Suspicious",
+      "emoji": "\ud83d\udd34"
+    }
+  ],
+  "feature_names": [
+    "upi_txn_per_month",
+    "avg_txn_amount",
+    "monthly_income_proxy",
+    "account_age_months",
+    "savings_ratio",
+    "p2p_ratio",
+    "recharge_consistency",
+    "bill_payment_ontime_rate",
+    "merchant_diversity",
+    "utility_payment_rate",
+    "recharge_amount_consistency",
+    "night_txn_ratio",
+    "failed_txn_rate",
+    "emi_to_income_ratio"
+  ],
+  "feature_importance": {
+    "monthly_income_proxy": 0.2462,
+    "emi_to_income_ratio": 0.1476,
+    "savings_ratio": 0.106,
+    "recharge_amount_consistency": 0.0646,
+    "avg_txn_amount": 0.0573,
+    "bill_payment_ontime_rate": 0.0508,
+    "recharge_consistency": 0.0507,
+    "p2p_ratio": 0.0497,
+    "upi_txn_per_month": 0.0457,
+    "account_age_months": 0.0429,
+    "night_txn_ratio": 0.0403,
+    "utility_payment_rate": 0.0352,
+    "failed_txn_rate": 0.0343,
+    "merchant_diversity": 0.0288
+  }
+}
